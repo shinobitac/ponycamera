@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592432BD1B0190DD00E2E238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 592432BC1B0190DD00E2E238 /* main.m */; };
+		592432C01B0190DD00E2E238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 592432BF1B0190DD00E2E238 /* AppDelegate.m */; };
+		592432C31B0190DD00E2E238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592432C21B0190DD00E2E238 /* ViewController.m */; };
+		592432C61B0190DD00E2E238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592432C41B0190DD00E2E238 /* Main.storyboard */; };
+		592432C81B0190DD00E2E238 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592432C71B0190DD00E2E238 /* Images.xcassets */; };
+		592432CB1B0190DD00E2E238 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592432C91B0190DD00E2E238 /* LaunchScreen.xib */; };
+		592432D71B0190DD00E2E238 /* PonyCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 592432D61B0190DD00E2E238 /* PonyCameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592432D11B0190DD00E2E238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592432AF1B0190DD00E2E238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592432B61B0190DD00E2E238;
+			remoteInfo = PonyCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		592432B71B0190DD00E2E238 /* PonyCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonyCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		592432BB1B0190DD00E2E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592432BC1B0190DD00E2E238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		592432BE1B0190DD00E2E238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		592432BF1B0190DD00E2E238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		592432C11B0190DD00E2E238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		592432C21B0190DD00E2E238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		592432C51B0190DD00E2E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		592432C71B0190DD00E2E238 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		592432CA1B0190DD00E2E238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		592432D01B0190DD00E2E238 /* PonyCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		592432D51B0190DD00E2E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592432D61B0190DD00E2E238 /* PonyCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonyCameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592432B41B0190DD00E2E238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592432CD1B0190DD00E2E238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592432AE1B0190DD00E2E238 = {
+			isa = PBXGroup;
+			children = (
+				592432B91B0190DD00E2E238 /* PonyCamera */,
+				592432D31B0190DD00E2E238 /* PonyCameraTests */,
+				592432B81B0190DD00E2E238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		592432B81B0190DD00E2E238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592432B71B0190DD00E2E238 /* PonyCamera.app */,
+				592432D01B0190DD00E2E238 /* PonyCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592432B91B0190DD00E2E238 /* PonyCamera */ = {
+			isa = PBXGroup;
+			children = (
+				592432BE1B0190DD00E2E238 /* AppDelegate.h */,
+				592432BF1B0190DD00E2E238 /* AppDelegate.m */,
+				592432C11B0190DD00E2E238 /* ViewController.h */,
+				592432C21B0190DD00E2E238 /* ViewController.m */,
+				592432C41B0190DD00E2E238 /* Main.storyboard */,
+				592432C71B0190DD00E2E238 /* Images.xcassets */,
+				592432C91B0190DD00E2E238 /* LaunchScreen.xib */,
+				592432BA1B0190DD00E2E238 /* Supporting Files */,
+			);
+			path = PonyCamera;
+			sourceTree = "<group>";
+		};
+		592432BA1B0190DD00E2E238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				592432BB1B0190DD00E2E238 /* Info.plist */,
+				592432BC1B0190DD00E2E238 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		592432D31B0190DD00E2E238 /* PonyCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				592432D61B0190DD00E2E238 /* PonyCameraTests.m */,
+				592432D41B0190DD00E2E238 /* Supporting Files */,
+			);
+			path = PonyCameraTests;
+			sourceTree = "<group>";
+		};
+		592432D41B0190DD00E2E238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				592432D51B0190DD00E2E238 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592432B61B0190DD00E2E238 /* PonyCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592432DA1B0190DD00E2E238 /* Build configuration list for PBXNativeTarget "PonyCamera" */;
+			buildPhases = (
+				592432B31B0190DD00E2E238 /* Sources */,
+				592432B41B0190DD00E2E238 /* Frameworks */,
+				592432B51B0190DD00E2E238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonyCamera;
+			productName = PonyCamera;
+			productReference = 592432B71B0190DD00E2E238 /* PonyCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592432CF1B0190DD00E2E238 /* PonyCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592432DD1B0190DD00E2E238 /* Build configuration list for PBXNativeTarget "PonyCameraTests" */;
+			buildPhases = (
+				592432CC1B0190DD00E2E238 /* Sources */,
+				592432CD1B0190DD00E2E238 /* Frameworks */,
+				592432CE1B0190DD00E2E238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592432D21B0190DD00E2E238 /* PBXTargetDependency */,
+			);
+			name = PonyCameraTests;
+			productName = PonyCameraTests;
+			productReference = 592432D01B0190DD00E2E238 /* PonyCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592432AF1B0190DD00E2E238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = TNMacBook;
+				TargetAttributes = {
+					592432B61B0190DD00E2E238 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					592432CF1B0190DD00E2E238 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 592432B61B0190DD00E2E238;
+					};
+				};
+			};
+			buildConfigurationList = 592432B21B0190DD00E2E238 /* Build configuration list for PBXProject "PonyCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592432AE1B0190DD00E2E238;
+			productRefGroup = 592432B81B0190DD00E2E238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592432B61B0190DD00E2E238 /* PonyCamera */,
+				592432CF1B0190DD00E2E238 /* PonyCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592432B51B0190DD00E2E238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592432C61B0190DD00E2E238 /* Main.storyboard in Resources */,
+				592432CB1B0190DD00E2E238 /* LaunchScreen.xib in Resources */,
+				592432C81B0190DD00E2E238 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592432CE1B0190DD00E2E238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592432B31B0190DD00E2E238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592432C31B0190DD00E2E238 /* ViewController.m in Sources */,
+				592432C01B0190DD00E2E238 /* AppDelegate.m in Sources */,
+				592432BD1B0190DD00E2E238 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592432CC1B0190DD00E2E238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592432D71B0190DD00E2E238 /* PonyCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592432D21B0190DD00E2E238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592432B61B0190DD00E2E238 /* PonyCamera */;
+			targetProxy = 592432D11B0190DD00E2E238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		592432C41B0190DD00E2E238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592432C51B0190DD00E2E238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		592432C91B0190DD00E2E238 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592432CA1B0190DD00E2E238 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		592432D81B0190DD00E2E238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		592432D91B0190DD00E2E238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592432DB1B0190DD00E2E238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonyCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		592432DC1B0190DD00E2E238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PonyCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		592432DE1B0190DD00E2E238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PonyCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyCamera.app/PonyCamera";
+			};
+			name = Debug;
+		};
+		592432DF1B0190DD00E2E238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PonyCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PonyCamera.app/PonyCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592432B21B0190DD00E2E238 /* Build configuration list for PBXProject "PonyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592432D81B0190DD00E2E238 /* Debug */,
+				592432D91B0190DD00E2E238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592432DA1B0190DD00E2E238 /* Build configuration list for PBXNativeTarget "PonyCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592432DB1B0190DD00E2E238 /* Debug */,
+				592432DC1B0190DD00E2E238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592432DD1B0190DD00E2E238 /* Build configuration list for PBXNativeTarget "PonyCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592432DE1B0190DD00E2E238 /* Debug */,
+				592432DF1B0190DD00E2E238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592432AF1B0190DD00E2E238 /* Project object */;
+}
